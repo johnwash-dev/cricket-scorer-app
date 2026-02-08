@@ -1,0 +1,11 @@
+.card-borders{
+    border: 0.75px solid rgba(0, 0, 0, 0.196) !important;
+}
+
+.row-bottom{
+    border-bottom: 0.75px solid rgba(0, 0, 0, 0.196) !important;
+}
+
+.text-lightWhite{
+    color: #ffffffd3;
+}

@@ -1,0 +1,46 @@
+.myContainer{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('../assets/Images/ScorerPagePic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #00000048;
+    background-blend-mode: darken;
+}
+
+.inputContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.inputContainer .inputCard{
+    max-width: 450px;
+    width: 90%;
+}
+
+.buttons{
+    padding: 10px 20px !important ;
+    border-radius: 20% !important;
+}
+
+.bg-blur{
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.scoreBoard{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.myRow{
+    border-radius: 10px;
+}

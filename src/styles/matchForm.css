@@ -1,0 +1,98 @@
+.forms{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url('../assets/Images/formpic.jpg');
+   background-size: cover;
+   background-position: center;
+   background-color: #00000062;
+   background-blend-mode: darken;
+}
+
+.myForms{
+    padding: 25px 50px;
+    /* border: 1px solid red; */
+    background-color: transparent;
+    box-shadow: 1px 1px 20px black;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+}
+
+.myForms input{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: #ffffffb6;
+    border: none;
+    border-radius: 5px;
+}
+
+.headText{
+    color: #a52a2a;
+}
+
+.myForms .formBtn{
+    background-color: #8a0202;
+    color: #ffffff;
+}
+
+.myForms .formBtn:hover{
+    background-color: #700808;
+    color: #ffffe0;
+}
+
+.error{
+    color: #dc3545;
+    font-size: 0.95rem;
+    margin: 5px;
+}
+
+.input-error{
+    border: 2px solid #dc3545 !important;
+}
+
+.dropDowns{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.custom-dropdown{
+    width: 47%;
+    display: block;
+}
+
+ .form-control{
+    background-color: #ffffffb6 !important;
+}
+
+.dropDowns .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #ffffffc9;
+}
+
+.dropDowns .dropdown-menu{
+    background-color: #ffffffb6;
+}
+
+
+@media (max-width:410px) {
+    .myForms{
+        padding: 25px 25px;
+    }
+}
+
+@media (max-width: 558px){
+    .dropDowns{
+        display: block;
+    }
+    .dropDowns .form-control{
+        width: 100%;
+    }
+    .custom-dropdown{
+        width: 100%;
+    }
+}
