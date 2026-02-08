@@ -36,11 +36,20 @@ body{
     font-weight: 600;
 }
 
+@media (max-width: 774px){
+    .landing-text {
+        width: 80%;
+    }
+}
+
 @media (max-width: 430px) {
     .land-containter{
         background-position: left;
     }
     .land-containter .landing-text{
         width: 80%;
+    }
+    .landing-text span{
+        display: block;
     }
 }
